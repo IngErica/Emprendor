@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logininicio"/>
+
+    <TextView
+        android:id="@+id/Mensaje"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Debes ver la Unidad 1"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/Volver"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_btn"
+        android:elevation="8dp"
+        android:text="Volver"
+        android:textColor="#fff" />
+
+</LinearLayout>
